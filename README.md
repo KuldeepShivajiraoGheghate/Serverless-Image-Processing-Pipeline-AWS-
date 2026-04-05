@@ -14,6 +14,7 @@ with zero manual intervention.
 ---
 
 ## 📐 Architecture
+```
 User Uploads Image
 │
 ▼
@@ -33,6 +34,7 @@ User Uploads Image
 │   S3 Output Bucket  │  processed-image-bucket-kuldeep
 │   processed/        │
 └─────────────────────┘
+```
 ---
 
 ## ✨ Features
@@ -148,6 +150,7 @@ Upload `deployment.zip` via Lambda Console → Code → Upload from .zip
 ## 👨‍💻 Author
 
 **Kuldeep**
+Computer Engineering Student – PCCOE
 Built as part of Cloud Computing Internship — AWS us-east-1
 
 ---
