@@ -66,18 +66,25 @@ User Uploads Image
 serverless-image-pipeline/
 │
 ├── src/
-│   └── lambda_function.py      ← Main Lambda handler
+│   └── lambda_function.py
 │
 ├── docs/
-│   └── screenshots/            ← Project screenshots
+│   └── screenshots/
+│       ├── README.md
+│       ├── s3-input-bucket.png
+│       ├── s3-output-bucket.png
+│       ├── lambda-function.png
+│       ├── lambda-layers.png
+│       ├── lambda-iam-permissions.png
+│       └── lambda-pillow-layer.png
 │
 ├── tests/
-│   └── test_lambda.py          ← Unit tests
+│   └── test_lambda.py
 │
-├── build.ps1                   ← Windows build script
-├── requirements.txt            ← Python dependencies
-├── .gitignore                  ← Git ignore rules
-└── README.md                   ← Project documentation
+├── build.ps1
+├── requirements.txt
+├── .gitignore
+└── README.md
 ```
 ---
 
