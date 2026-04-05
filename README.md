@@ -147,11 +147,10 @@ Upload `deployment.zip` via Lambda Console → Code → Upload from .zip
 
 ---
 
-## 👨‍💻 Author
+#👨‍💻 Author
 
-**Kuldeep**
-Computer Engineering Student – PCCOE
-Built as part of Cloud Computing Internship — AWS us-east-1
+Kuldeep Gheghate  
+Computer Engineering Student – PCCOE 
 
 ---
 
