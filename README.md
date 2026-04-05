@@ -14,27 +14,7 @@ with zero manual intervention.
 ---
 
 ## 📐 Architecture
-```
-User Uploads Image
-│
-▼
-┌─────────────────────┐
-│   S3 Input Bucket   │  image-upload-bucket-kuldeep
-│   (Trigger Source)  │
-└────────┬────────────┘
-│  S3 PUT Event
-▼
-┌─────────────────────┐
-│   AWS Lambda        │  image-processing-lambda
-│   Python 3.12       │  Pillow for resizing
-└────────┬────────────┘
-│  Processed Image
-▼
-┌─────────────────────┐
-│   S3 Output Bucket  │  processed-image-bucket-kuldeep
-│   processed/        │
-└─────────────────────┘
-```
+![Architecture Diagram](docs/screenshots/architecture-diagram.png)
 ---
 
 ## ✨ Features
